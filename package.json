@@ -1,6 +1,6 @@
 {
   "name": "alanngai-update-notifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a npm package update notifier tool",
   "main": "index.js",
   "scripts": {

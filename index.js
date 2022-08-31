@@ -23,7 +23,7 @@ class UpdateNotifier {
     }
 
     const latest = await latestVersion(name); // 获取到最新版本号
-    if (semver.gt(latest, version)) {
+    if (semver.gt(latest, version.replace(/\^|~/g, ""))) {
       // 最新版本号是否大于当前版本
       toast(`建议更新 ${name} ，${version} => ${latest}`);
     }
