@@ -1,0 +1,27 @@
+{
+  "name": "alanngai-update-notifier",
+  "version": "1.0.0",
+  "description": "a npm package update notifier tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanNgaiJX/alanngai-update-notifier.git"
+  },
+  "keywords": [
+    "update-notifier"
+  ],
+  "author": "AlanNgai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanNgaiJX/alanngai-update-notifier/issues"
+  },
+  "homepage": "https://github.com/AlanNgaiJX/alanngai-update-notifier#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "latest-version": "^5.1.0",
+    "semver": "^7.3.7"
+  }
+}
